@@ -1,4 +1,4 @@
-#Lexical Analyzer for Variable Declaration in Java
+Lexical Analyzer for Variable Declaration in Java
 
 This Java program is a simple lexical analyzer designed to parse variable declarations like int age = 25. It uses a stack to process tokens, a buffer to hold temporary data, and a symbol table to store recognized components. The program identifies the dataType, identifier, assignment, and value tokens in any order.
 Features
