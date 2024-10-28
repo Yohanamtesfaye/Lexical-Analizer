@@ -53,6 +53,7 @@ public class LexicalAnalyzer {
         }
     }
 
+    
     private void processAssignment() {
         if (!symbolTable.containsKey("assignment")) {
             symbolTable.put("assignment", "=");
